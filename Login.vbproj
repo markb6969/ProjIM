@@ -1,0 +1,683 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{7E6C9338-C91B-4203-8E69-6773116EBA5F}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <StartupObject>Login.My.MyApplication</StartupObject>
+    <RootNamespace>Login</RootNamespace>
+    <AssemblyName>Login</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <MyType>WindowsForms</MyType>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>Login.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>Login.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionExplicit>On</OptionExplicit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionCompare>Binary</OptionCompare>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionStrict>Off</OptionStrict>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionInfer>On</OptionInfer>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Net.Http" />
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Drawing" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Windows.Forms" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Xml.Linq" />
+    <Import Include="System.Threading.Tasks" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Admin\CellBlockOne.Designer.vb">
+      <DependentUpon>CellBlockOne.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\CellBlockOne.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Admin\AdminCreateAcc.Designer.vb">
+      <DependentUpon>AdminCreateAcc.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\AdminCreateAcc.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Admin\AdminCreateImg.Designer.vb">
+      <DependentUpon>AdminCreateImg.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\AdminCreateImg.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Admin\AdminCreatePass.Designer.vb">
+      <DependentUpon>AdminCreatePass.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\AdminCreatePass.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Admin\AdminHome.Designer.vb">
+      <DependentUpon>AdminHome.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\AdminHome.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Admin\AdminLogin.Designer.vb">
+      <DependentUpon>AdminLogin.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\AdminLogin.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Admin\CellBlockThree.Designer.vb">
+      <DependentUpon>CellBlockThree.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\CellBlockThree.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Admin\CellBlockTwo.Designer.vb">
+      <DependentUpon>CellBlockTwo.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\CellBlockTwo.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Admin\Staff.Designer.vb">
+      <DependentUpon>Staff.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\Staff.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Admin\Staff\Cafeteria\FridayCafeteria.Designer.vb">
+      <DependentUpon>FridayCafeteria.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\Staff\Cafeteria\FridayCafeteria.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Admin\Staff\Cafeteria\MondayCafeteria.Designer.vb">
+      <DependentUpon>MondayCafeteria.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\Staff\Cafeteria\MondayCafeteria.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Admin\Staff\Cafeteria\SaturdayCafeteria.Designer.vb">
+      <DependentUpon>SaturdayCafeteria.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\Staff\Cafeteria\SaturdayCafeteria.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Admin\Staff\Cafeteria\SundayCafeteria.Designer.vb">
+      <DependentUpon>SundayCafeteria.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\Staff\Cafeteria\SundayCafeteria.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Admin\Staff\Cafeteria\ThursdayCafeteria.Designer.vb">
+      <DependentUpon>ThursdayCafeteria.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\Staff\Cafeteria\ThursdayCafeteria.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Admin\Staff\Cafeteria\TuesdayCafeteria.Designer.vb">
+      <DependentUpon>TuesdayCafeteria.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\Staff\Cafeteria\TuesdayCafeteria.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Admin\Staff\Cafeteria\WedenesdayCafeteria.Designer.vb">
+      <DependentUpon>WedenesdayCafeteria.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\Staff\Cafeteria\WedenesdayCafeteria.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Admin\Staff\Guards\Friday.Designer.vb">
+      <DependentUpon>Friday.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\Staff\Guards\Friday.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Admin\Staff\Guards\Saturday.Designer.vb">
+      <DependentUpon>Saturday.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\Staff\Guards\Saturday.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Admin\Staff\Guards\Sunday.Designer.vb">
+      <DependentUpon>Sunday.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\Staff\Guards\Sunday.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Admin\Staff\Guards\Thursday.Designer.vb">
+      <DependentUpon>Thursday.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\Staff\Guards\Thursday.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Admin\Staff\Guards\Tuesday.Designer.vb">
+      <DependentUpon>Tuesday.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\Staff\Guards\Tuesday.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Admin\Staff\Guards\Monday.Designer.vb">
+      <DependentUpon>Monday.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\Staff\Guards\Monday.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Admin\Staff\Guards\Wednesday.Designer.vb">
+      <DependentUpon>Wednesday.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\Staff\Guards\Wednesday.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Admin\Staff\Janitor\JaintorSaturday.Designer.vb">
+      <DependentUpon>JaintorSaturday.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\Staff\Janitor\JaintorSaturday.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Admin\Staff\Janitor\JanitorFriday.Designer.vb">
+      <DependentUpon>JanitorFriday.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\Staff\Janitor\JanitorFriday.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Admin\Staff\Janitor\JanitorMonday.Designer.vb">
+      <DependentUpon>JanitorMonday.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\Staff\Janitor\JanitorMonday.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Admin\Staff\Janitor\JanitorSunday.Designer.vb">
+      <DependentUpon>JanitorSunday.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\Staff\Janitor\JanitorSunday.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Admin\Staff\Janitor\JanitorThursday.Designer.vb">
+      <DependentUpon>JanitorThursday.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\Staff\Janitor\JanitorThursday.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Admin\Staff\Janitor\JanitorTuesday.Designer.vb">
+      <DependentUpon>JanitorTuesday.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\Staff\Janitor\JanitorTuesday.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Admin\Staff\Janitor\JanitorWedenesday.Designer.vb">
+      <DependentUpon>JanitorWedenesday.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\Staff\Janitor\JanitorWedenesday.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Admin\Staff\Others\Others.Designer.vb">
+      <DependentUpon>Others.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\Staff\Others\Others.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Client\AboutHistory.Designer.vb">
+      <DependentUpon>AboutHistory.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Client\AboutHistory.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Client\AccountChangePass.Designer.vb">
+      <DependentUpon>AccountChangePass.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Client\AccountChangePass.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Client\AccountGetHelp.Designer.vb">
+      <DependentUpon>AccountGetHelp.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Client\AccountGetHelp.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Client\AccountProfile.Designer.vb">
+      <DependentUpon>AccountProfile.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Client\AccountProfile.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Client\AccountQuickGuide.Designer.vb">
+      <DependentUpon>AccountQuickGuide.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Client\AccountQuickGuide.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Client\AccountUpdate.Designer.vb">
+      <DependentUpon>AccountUpdate.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Client\AccountUpdate.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Client\Contact.Designer.vb">
+      <DependentUpon>Contact.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Client\Contact.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Client\CreateAccImage.Designer.vb">
+      <DependentUpon>CreateAccImage.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Client\CreateAccImage.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Client\CreatePass.Designer.vb">
+      <DependentUpon>CreatePass.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Client\CreatePass.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Client\FindInmate.Designer.vb">
+      <DependentUpon>FindInmate.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Client\FindInmate.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Client\LogoutClient.Designer.vb">
+      <DependentUpon>LogoutClient.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Client\LogoutClient.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.vb">
+      <DependentUpon>Form1.vb</DependentUpon>
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Client\About.Designer.vb">
+      <DependentUpon>About.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Client\About.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Client\CreateAcc.Designer.vb">
+      <DependentUpon>CreateAcc.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Client\CreateAcc.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Client\Home.Designer.vb">
+      <DependentUpon>Home.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Client\Home.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Client\Inmate.Designer.vb">
+      <DependentUpon>Inmate.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Client\Inmate.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Client\InmateSendingInfo.Designer.vb">
+      <DependentUpon>InmateSendingInfo.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Client\InmateSendingInfo.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Client\LocationMap.Designer.vb">
+      <DependentUpon>LocationMap.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Client\LocationMap.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Client\Locations.Designer.vb">
+      <DependentUpon>Locations.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Client\Locations.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Client\LocationSearch.Designer.vb">
+      <DependentUpon>LocationSearch.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Client\LocationSearch.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Client\LoginClient.Designer.vb">
+      <DependentUpon>LoginClient.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Client\LoginClient.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Client\Module1.vb" />
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="Client\Report.Designer.vb">
+      <DependentUpon>Report.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Client\Report.vb">
+      <SubType>Form</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Admin\CellBlockOne.resx">
+      <DependentUpon>CellBlockOne.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Admin\AdminCreateAcc.resx">
+      <DependentUpon>AdminCreateAcc.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Admin\AdminCreateImg.resx">
+      <DependentUpon>AdminCreateImg.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Admin\AdminCreatePass.resx">
+      <DependentUpon>AdminCreatePass.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Admin\AdminHome.resx">
+      <DependentUpon>AdminHome.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Admin\AdminLogin.resx">
+      <DependentUpon>AdminLogin.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Admin\CellBlockThree.resx">
+      <DependentUpon>CellBlockThree.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Admin\CellBlockTwo.resx">
+      <DependentUpon>CellBlockTwo.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Admin\Staff.resx">
+      <DependentUpon>Staff.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Admin\Staff\Cafeteria\FridayCafeteria.resx">
+      <DependentUpon>FridayCafeteria.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Admin\Staff\Cafeteria\MondayCafeteria.resx">
+      <DependentUpon>MondayCafeteria.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Admin\Staff\Cafeteria\SaturdayCafeteria.resx">
+      <DependentUpon>SaturdayCafeteria.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Admin\Staff\Cafeteria\SundayCafeteria.resx">
+      <DependentUpon>SundayCafeteria.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Admin\Staff\Cafeteria\ThursdayCafeteria.resx">
+      <DependentUpon>ThursdayCafeteria.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Admin\Staff\Cafeteria\TuesdayCafeteria.resx">
+      <DependentUpon>TuesdayCafeteria.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Admin\Staff\Cafeteria\WedenesdayCafeteria.resx">
+      <DependentUpon>WedenesdayCafeteria.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Admin\Staff\Guards\Friday.resx">
+      <DependentUpon>Friday.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Admin\Staff\Guards\Monday.resx">
+      <DependentUpon>Monday.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Admin\Staff\Guards\Saturday.resx">
+      <DependentUpon>Saturday.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Admin\Staff\Guards\Sunday.resx">
+      <DependentUpon>Sunday.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Admin\Staff\Guards\Thursday.resx">
+      <DependentUpon>Thursday.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Admin\Staff\Guards\Tuesday.resx">
+      <DependentUpon>Tuesday.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Admin\Staff\Guards\Wednesday.resx">
+      <DependentUpon>Wednesday.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Admin\Staff\Janitor\JaintorSaturday.resx">
+      <DependentUpon>JaintorSaturday.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Admin\Staff\Janitor\JanitorFriday.resx">
+      <DependentUpon>JanitorFriday.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Admin\Staff\Janitor\JanitorMonday.resx">
+      <DependentUpon>JanitorMonday.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Admin\Staff\Janitor\JanitorSunday.resx">
+      <DependentUpon>JanitorSunday.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Admin\Staff\Janitor\JanitorThursday.resx">
+      <DependentUpon>JanitorThursday.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Admin\Staff\Janitor\JanitorTuesday.resx">
+      <DependentUpon>JanitorTuesday.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Admin\Staff\Janitor\JanitorWedenesday.resx">
+      <DependentUpon>JanitorWedenesday.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Admin\Staff\Others\Others.resx">
+      <DependentUpon>Others.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Client\About.resx">
+      <DependentUpon>About.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Client\AboutHistory.resx">
+      <DependentUpon>AboutHistory.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Client\AccountChangePass.resx">
+      <DependentUpon>AccountChangePass.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Client\AccountGetHelp.resx">
+      <DependentUpon>AccountGetHelp.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Client\AccountProfile.resx">
+      <DependentUpon>AccountProfile.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Client\AccountQuickGuide.resx">
+      <DependentUpon>AccountQuickGuide.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Client\AccountUpdate.resx">
+      <DependentUpon>AccountUpdate.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Client\Contact.resx">
+      <DependentUpon>Contact.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Client\CreateAcc.resx">
+      <DependentUpon>CreateAcc.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Client\CreateAccImage.resx">
+      <DependentUpon>CreateAccImage.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Client\CreatePass.resx">
+      <DependentUpon>CreatePass.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Client\FindInmate.resx">
+      <DependentUpon>FindInmate.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Client\Home.resx">
+      <DependentUpon>Home.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Client\Inmate.resx">
+      <DependentUpon>Inmate.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Client\InmateSendingInfo.resx">
+      <DependentUpon>InmateSendingInfo.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Client\LocationMap.resx">
+      <DependentUpon>LocationMap.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Client\Locations.resx">
+      <DependentUpon>Locations.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Client\LocationSearch.resx">
+      <DependentUpon>LocationSearch.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Client\LoginClient.resx">
+      <DependentUpon>LoginClient.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Client\LogoutClient.resx">
+      <DependentUpon>LogoutClient.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Client\Report.resx">
+      <DependentUpon>Report.vb</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\user %286%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\user %285%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\admin-with-cogwheels %282%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\setting %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\user %284%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Screenshot %28944%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Screenshot %28945%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\search %282%29.png" />
+    <None Include="Resources\search %281%29.png" />
+    <None Include="Resources\team.png" />
+    <None Include="Resources\team %281%29.png" />
+    <None Include="Resources\system-update.png" />
+    <None Include="Resources\setting %283%29.png" />
+    <None Include="Resources\Screenshot %28953%29.png" />
+    <None Include="Resources\telephone.png" />
+    <None Include="Resources\telephone %281%29.png" />
+    <None Include="Resources\Screenshot %28950%292.png" />
+    <None Include="Resources\Screenshot %28950%291.png" />
+    <None Include="Resources\Screenshot %28952%29.png" />
+    <None Include="Resources\right.png" />
+    <None Include="Resources\left.png" />
+    <None Include="Resources\add %281%29.png" />
+    <None Include="Resources\inmates-sing-national-anthem-dur.jpg" />
+    <None Include="Resources\camp-bagong-diwa-maximum-securit.jpg" />
+    <None Include="Resources\Philippines-training-webpage.jpg.jpg" />
+    <None Include="Resources\decaying-jail-2.jpg" />
+    <None Include="Resources\covid19_coronavirus_philippines.jpg" />
+    <None Include="Resources\image %281%29.png" />
+    <None Include="Resources\BBRB-Cebu.jpg" />
+    <None Include="Resources\BOUe8O5CQAEwbkA.jpg" />
+    <None Include="Resources\Philippines-training-webpage.jpg" />
+    <None Include="Resources\Philippines-training.jpg" />
+    <None Include="Resources\bjmp.jpg" />
+    <None Include="Resources\BBRB-Cebu1.jpg" />
+    <None Include="Resources\cellblock-central.png" />
+    <None Include="Resources\cc-white.png" />
+    <None Include="Resources\243322008_190892826490082_368692.jpg" />
+    <None Include="Resources\Report2.jpg" />
+    <None Include="Resources\Report3.jpg" />
+    <None Include="Resources\Report1.jpg" />
+    <None Include="Resources\1.png" />
+    <None Include="Resources\issue.png" />
+    <None Include="Resources\house-visiting.png" />
+    <None Include="Resources\box.png" />
+    <None Include="Resources\mail.png" />
+    <None Include="Resources\key.png" />
+    <None Include="Resources\key1.png" />
+    <None Include="Resources\manual.png" />
+    <None Include="Resources\help.png" />
+    <None Include="Resources\logout %281%29.png" />
+    <None Include="Resources\inmate %282%29.png" />
+    <None Include="Resources\inmate %281%29.png" />
+    <None Include="Resources\home-icon-silhouette %281%29.png" />
+    <None Include="Resources\home-icon-silhouette.png" />
+    <None Include="Resources\pdf-file %281%29.png" />
+    <None Include="Resources\pdf-file %282%29.png" />
+    <None Include="Resources\people.png" />
+    <None Include="Resources\report.png" />
+    <None Include="Resources\health-insurance.png" />
+    <None Include="Resources\puzzle.png" />
+    <None Include="Resources\contraband.png" />
+    <None Include="Resources\application %281%29.png" />
+    <None Include="Resources\application.png" />
+    <None Include="Resources\cleaning-cart %281%29.png" />
+    <None Include="Resources\cleaning-cart.png" />
+    <None Include="Resources\canteen %281%29.png" />
+    <None Include="Resources\canteen.png" />
+    <None Include="Resources\policemen %281%29.png" />
+    <None Include="Resources\policemen.png" />
+    <Content Include="Resources\Screenshot %28947%29.png" />
+    <None Include="Resources\Screenshot %28950%29.png" />
+    <None Include="Resources\Screenshot %28949%29.png" />
+    <None Include="Resources\Screenshot %28948%29.png" />
+    <None Include="Resources\Screenshot %28947%291.png" />
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
+</Project>

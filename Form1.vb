@@ -11,4 +11,10 @@ Public Class Form1
 
         Me.Hide()
     End Sub
+
+    Private Sub btnSuperAdmin_Click(sender As Object, e As EventArgs) Handles btnSuperAdmin.Click
+        SuperLogin.Show()
+        Me.Hide()
+
+    End Sub
 End Class

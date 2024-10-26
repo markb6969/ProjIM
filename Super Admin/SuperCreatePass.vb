@@ -1,4 +1,4 @@
-﻿Public Class AdminCreatePass
+﻿Public Class SuperCreatePass
     'HINT FOR TEXTBOX
     Private Sub txtEmail_Enter(sender As Object, e As EventArgs) Handles txtEmail.Enter
         If txtEmail.Text = "Enter your Email" Then
@@ -79,10 +79,9 @@
     Private Sub btnNextPage_Click(sender As Object, e As EventArgs) Handles btnNextPage.Click
         If AreFieldsFilled() Then
 
-            AdminCreateImg.Show()
+            SuperCreateImg.Show()
             Me.Hide()
         End If
     End Sub
-
 
 End Class

@@ -1,4 +1,4 @@
-﻿Public Class AdminCreateAcc
+﻿Public Class SuperCreateAcc
     'HINT FOR TEXTBOX
     Private Sub txtFirstName_Enter(sender As Object, e As EventArgs) Handles txtFirstName.Enter
         If txtFirstName.Text = "Enter your First Name" Then
@@ -152,7 +152,7 @@
     Private Sub btnNextPage_Click(sender As Object, e As EventArgs) Handles btnNextPage.Click
         If AreFieldsFilled() Then
 
-            AdminCreatePass.Show()
+            SuperCreatePass.Show()
             Me.Hide()
         End If
     End Sub

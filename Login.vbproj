@@ -408,6 +408,240 @@
     <Compile Include="Client\Report.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="Super Admin\MangeInfo\Create.Designer.vb">
+      <DependentUpon>Create.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Super Admin\MangeInfo\Create.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Super Admin\MangeInfo\DeleteForm.Designer.vb">
+      <DependentUpon>DeleteForm.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Super Admin\MangeInfo\DeleteForm.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Super Admin\MangeInfo\DeletePrisoner.Designer.vb">
+      <DependentUpon>DeletePrisoner.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Super Admin\MangeInfo\DeletePrisoner.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Super Admin\MangeInfo\DeleteStaff.Designer.vb">
+      <DependentUpon>DeleteStaff.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Super Admin\MangeInfo\DeleteStaff.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Super Admin\MangeInfo\PersonalInfo.Designer.vb">
+      <DependentUpon>PersonalInfo.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Super Admin\MangeInfo\PersonalInfo.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Super Admin\MangeInfo\Read.Designer.vb">
+      <DependentUpon>Read.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Super Admin\MangeInfo\Read.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Super Admin\MangeInfo\Update.Designer.vb">
+      <DependentUpon>Update.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Super Admin\MangeInfo\Update.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Super Admin\MangeInfo\UpdatePrisoner.Designer.vb">
+      <DependentUpon>UpdatePrisoner.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Super Admin\MangeInfo\UpdatePrisoner.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Super Admin\MangeInfo\UpdateStaff.Designer.vb">
+      <DependentUpon>UpdateStaff.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Super Admin\MangeInfo\UpdateStaff.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Super Admin\SuperCellblockOne.Designer.vb">
+      <DependentUpon>SuperCellblockOne.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Super Admin\SuperCellblockOne.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Super Admin\SuperCellblockThree.Designer.vb">
+      <DependentUpon>SuperCellblockThree.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Super Admin\SuperCellblockThree.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Super Admin\SuperCellblockTwo.Designer.vb">
+      <DependentUpon>SuperCellblockTwo.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Super Admin\SuperCellblockTwo.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Super Admin\SuperCreateAcc.Designer.vb">
+      <DependentUpon>SuperCreateAcc.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Super Admin\SuperCreateAcc.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Super Admin\SuperCreateImg.Designer.vb">
+      <DependentUpon>SuperCreateImg.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Super Admin\SuperCreateImg.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Super Admin\SuperCreatePass.Designer.vb">
+      <DependentUpon>SuperCreatePass.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Super Admin\SuperCreatePass.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Super Admin\SuperHome.Designer.vb">
+      <DependentUpon>SuperHome.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Super Admin\SuperHome.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Super Admin\SuperLogin.Designer.vb">
+      <DependentUpon>SuperLogin.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Super Admin\SuperLogin.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Super Admin\SuperStaff\SuperCafeteria\SupCafFriday.Designer.vb">
+      <DependentUpon>SupCafFriday.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Super Admin\SuperStaff\SuperCafeteria\SupCafFriday.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Super Admin\SuperStaff\SuperCafeteria\SupCafMonday.Designer.vb">
+      <DependentUpon>SupCafMonday.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Super Admin\SuperStaff\SuperCafeteria\SupCafMonday.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Super Admin\SuperStaff\SuperCafeteria\SupCafSaturday.Designer.vb">
+      <DependentUpon>SupCafSaturday.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Super Admin\SuperStaff\SuperCafeteria\SupCafSaturday.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Super Admin\SuperStaff\SuperCafeteria\SupCafSunday.Designer.vb">
+      <DependentUpon>SupCafSunday.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Super Admin\SuperStaff\SuperCafeteria\SupCafSunday.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Super Admin\SuperStaff\SuperCafeteria\SupCafThursday.Designer.vb">
+      <DependentUpon>SupCafThursday.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Super Admin\SuperStaff\SuperCafeteria\SupCafThursday.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Super Admin\SuperStaff\SuperCafeteria\SupCafTuesday.Designer.vb">
+      <DependentUpon>SupCafTuesday.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Super Admin\SuperStaff\SuperCafeteria\SupCafTuesday.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Super Admin\SuperStaff\SuperCafeteria\SupCafWednesday.Designer.vb">
+      <DependentUpon>SupCafWednesday.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Super Admin\SuperStaff\SuperCafeteria\SupCafWednesday.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Super Admin\SuperStaff\SuperGuards\SupFriday.Designer.vb">
+      <DependentUpon>SupFriday.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Super Admin\SuperStaff\SuperGuards\SupFriday.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Super Admin\SuperStaff\SuperGuards\SupMonday.Designer.vb">
+      <DependentUpon>SupMonday.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Super Admin\SuperStaff\SuperGuards\SupMonday.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Super Admin\SuperStaff\SuperGuards\SupSaturday.Designer.vb">
+      <DependentUpon>SupSaturday.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Super Admin\SuperStaff\SuperGuards\SupSaturday.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Super Admin\SuperStaff\SuperGuards\SupSunday.Designer.vb">
+      <DependentUpon>SupSunday.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Super Admin\SuperStaff\SuperGuards\SupSunday.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Super Admin\SuperStaff\SuperGuards\SupThursday.Designer.vb">
+      <DependentUpon>SupThursday.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Super Admin\SuperStaff\SuperGuards\SupThursday.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Super Admin\SuperStaff\SuperGuards\SupTuesday.Designer.vb">
+      <DependentUpon>SupTuesday.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Super Admin\SuperStaff\SuperGuards\SupTuesday.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Super Admin\SuperStaff\SuperGuards\SupWedenesday.Designer.vb">
+      <DependentUpon>SupWedenesday.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Super Admin\SuperStaff\SuperGuards\SupWedenesday.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Super Admin\SuperStaff\SuperJanitor\SupJanFriday.Designer.vb">
+      <DependentUpon>SupJanFriday.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Super Admin\SuperStaff\SuperJanitor\SupJanFriday.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Super Admin\SuperStaff\SuperJanitor\SupJanMonday.Designer.vb">
+      <DependentUpon>SupJanMonday.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Super Admin\SuperStaff\SuperJanitor\SupJanMonday.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Super Admin\SuperStaff\SuperJanitor\SupJanSaturday.Designer.vb">
+      <DependentUpon>SupJanSaturday.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Super Admin\SuperStaff\SuperJanitor\SupJanSaturday.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Super Admin\SuperStaff\SuperJanitor\SupJanSunday.Designer.vb">
+      <DependentUpon>SupJanSunday.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Super Admin\SuperStaff\SuperJanitor\SupJanSunday.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Super Admin\SuperStaff\SuperJanitor\SupJanThursday.Designer.vb">
+      <DependentUpon>SupJanThursday.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Super Admin\SuperStaff\SuperJanitor\SupJanThursday.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Super Admin\SuperStaff\SuperJanitor\SupJanTuesday.Designer.vb">
+      <DependentUpon>SupJanTuesday.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Super Admin\SuperStaff\SuperJanitor\SupJanTuesday.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Super Admin\SuperStaff\SuperJanitor\SupJanWednesday.Designer.vb">
+      <DependentUpon>SupJanWednesday.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Super Admin\SuperStaff\SuperJanitor\SupJanWednesday.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Super Admin\SuperStaff\SuperOthers\SupOthers.Designer.vb">
+      <DependentUpon>SupOthers.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Super Admin\SuperStaff\SuperOthers\SupOthers.vb">
+      <SubType>Form</SubType>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="Admin\CellBlockOne.resx">
@@ -575,6 +809,123 @@
     <EmbeddedResource Include="Client\Report.resx">
       <DependentUpon>Report.vb</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Super Admin\MangeInfo\Create.resx">
+      <DependentUpon>Create.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Super Admin\MangeInfo\DeleteForm.resx">
+      <DependentUpon>DeleteForm.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Super Admin\MangeInfo\DeletePrisoner.resx">
+      <DependentUpon>DeletePrisoner.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Super Admin\MangeInfo\DeleteStaff.resx">
+      <DependentUpon>DeleteStaff.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Super Admin\MangeInfo\PersonalInfo.resx">
+      <DependentUpon>PersonalInfo.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Super Admin\MangeInfo\Read.resx">
+      <DependentUpon>Read.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Super Admin\MangeInfo\Update.resx">
+      <DependentUpon>Update.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Super Admin\MangeInfo\UpdatePrisoner.resx">
+      <DependentUpon>UpdatePrisoner.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Super Admin\MangeInfo\UpdateStaff.resx">
+      <DependentUpon>UpdateStaff.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Super Admin\SuperCellblockOne.resx">
+      <DependentUpon>SuperCellblockOne.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Super Admin\SuperCellblockThree.resx">
+      <DependentUpon>SuperCellblockThree.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Super Admin\SuperCellblockTwo.resx">
+      <DependentUpon>SuperCellblockTwo.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Super Admin\SuperCreateAcc.resx">
+      <DependentUpon>SuperCreateAcc.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Super Admin\SuperCreateImg.resx">
+      <DependentUpon>SuperCreateImg.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Super Admin\SuperCreatePass.resx">
+      <DependentUpon>SuperCreatePass.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Super Admin\SuperHome.resx">
+      <DependentUpon>SuperHome.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Super Admin\SuperLogin.resx">
+      <DependentUpon>SuperLogin.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Super Admin\SuperStaff\SuperCafeteria\SupCafFriday.resx">
+      <DependentUpon>SupCafFriday.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Super Admin\SuperStaff\SuperCafeteria\SupCafMonday.resx">
+      <DependentUpon>SupCafMonday.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Super Admin\SuperStaff\SuperCafeteria\SupCafSaturday.resx">
+      <DependentUpon>SupCafSaturday.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Super Admin\SuperStaff\SuperCafeteria\SupCafSunday.resx">
+      <DependentUpon>SupCafSunday.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Super Admin\SuperStaff\SuperCafeteria\SupCafThursday.resx">
+      <DependentUpon>SupCafThursday.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Super Admin\SuperStaff\SuperCafeteria\SupCafTuesday.resx">
+      <DependentUpon>SupCafTuesday.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Super Admin\SuperStaff\SuperCafeteria\SupCafWednesday.resx">
+      <DependentUpon>SupCafWednesday.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Super Admin\SuperStaff\SuperGuards\SupFriday.resx">
+      <DependentUpon>SupFriday.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Super Admin\SuperStaff\SuperGuards\SupMonday.resx">
+      <DependentUpon>SupMonday.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Super Admin\SuperStaff\SuperGuards\SupSaturday.resx">
+      <DependentUpon>SupSaturday.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Super Admin\SuperStaff\SuperGuards\SupSunday.resx">
+      <DependentUpon>SupSunday.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Super Admin\SuperStaff\SuperGuards\SupThursday.resx">
+      <DependentUpon>SupThursday.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Super Admin\SuperStaff\SuperGuards\SupTuesday.resx">
+      <DependentUpon>SupTuesday.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Super Admin\SuperStaff\SuperGuards\SupWedenesday.resx">
+      <DependentUpon>SupWedenesday.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Super Admin\SuperStaff\SuperJanitor\SupJanFriday.resx">
+      <DependentUpon>SupJanFriday.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Super Admin\SuperStaff\SuperJanitor\SupJanMonday.resx">
+      <DependentUpon>SupJanMonday.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Super Admin\SuperStaff\SuperJanitor\SupJanSaturday.resx">
+      <DependentUpon>SupJanSaturday.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Super Admin\SuperStaff\SuperJanitor\SupJanSunday.resx">
+      <DependentUpon>SupJanSunday.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Super Admin\SuperStaff\SuperJanitor\SupJanThursday.resx">
+      <DependentUpon>SupJanThursday.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Super Admin\SuperStaff\SuperJanitor\SupJanTuesday.resx">
+      <DependentUpon>SupJanTuesday.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Super Admin\SuperStaff\SuperJanitor\SupJanWednesday.resx">
+      <DependentUpon>SupJanWednesday.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Super Admin\SuperStaff\SuperOthers\SupOthers.resx">
+      <DependentUpon>SupOthers.vb</DependentUpon>
+    </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
     <None Include="My Project\Application.myapp">
@@ -610,6 +961,8 @@
     <None Include="Resources\Screenshot %28945%29.png" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="Resources\setting %284%29.png" />
+    <None Include="Resources\setting %285%29.png" />
     <None Include="Resources\search %282%29.png" />
     <None Include="Resources\search %281%29.png" />
     <None Include="Resources\team.png" />
@@ -672,6 +1025,7 @@
     <None Include="Resources\canteen.png" />
     <None Include="Resources\policemen %281%29.png" />
     <None Include="Resources\policemen.png" />
+    <None Include="Resources\leftpng.png" />
     <Content Include="Resources\Screenshot %28947%29.png" />
     <None Include="Resources\Screenshot %28950%29.png" />
     <None Include="Resources\Screenshot %28949%29.png" />
